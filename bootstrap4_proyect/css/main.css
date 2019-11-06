@@ -1,0 +1,86 @@
+.navbar1{
+    /* efecto de sombra */
+    box-shadow: 2px 2px 5px black;
+    opacity: .9;
+
+}
+
+ .navbar1 .nav-item  .nav-link{
+    color: white;
+}
+
+.main-header{
+    position: relative;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    min-height: 600px;
+   
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107,.7);
+    /* se ocupa para que el color de background no quede hasta la mitad de la image
+    al igual se ocupa las position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team, footer {
+    background: #30336b;
+}
+
+.ima1{
+    padding-top: 35px;
+}
+
+
+@media screen and  (max-width: 767px){
+    .ima2{
+        margin-left: 150px;
+        padding-top: 30px;
+        }
+
+        .texto1{
+            padding-top: 20px;
+        }
+        .Contact{
+            text-align: center;
+        }
+   
+        .accordion p{
+             text-align: justify; 
+          }
+   
+          #producto p {
+           text-align: justify; 
+          }
+         .ima1{
+             display: none;
+         }
+}
+
+@media screen and  (max-width: 575px){
+  .ima2{
+     margin-left: 150px;
+     padding-top: 30px;
+     }
+
+     .texto1{
+         padding-top: 20px;
+     }
+     .Contact{
+         text-align: center;
+     }
+
+     .accordion p{
+          text-align: justify; 
+       }
+
+       #producto p {
+        text-align: justify; 
+       }
+}
+
