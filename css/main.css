@@ -87,8 +87,8 @@
 
 @media screen and  (max-width: 380px){
     .ima2{
-         margin-left: 75px;
-       
+         
+        display: none;
         }
        
        
@@ -98,8 +98,7 @@
 
 @media screen and  (max-width: 325px){
     .ima2{
-         margin-left: 55px;
-       
+       display: none;
         }
     
        
