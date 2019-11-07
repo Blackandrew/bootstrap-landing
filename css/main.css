@@ -87,11 +87,20 @@
 
 @media screen and  (max-width: 380px){
     .ima2{
-         margin-left: 35px;
+         margin-left: 75px;
        
         }
-        .main-header{
-
-        }
+       
        
 }
+
+
+
+@media screen and  (max-width: 325px){
+    .ima2{
+         margin-left: 40px;
+       
+        }
+    
+       
+} 
