@@ -90,7 +90,9 @@
         display: none;
        
         }
-       
+       .foo{
+          margin-top: -35px;
+       }
        
 }
 
