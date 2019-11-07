@@ -87,7 +87,7 @@
 
 @media screen and  (max-width: 380px){
     .ima2{
-         
+        display: none;
        
         }
        
@@ -96,10 +96,3 @@
 
 
 
-@media screen and  (max-width: 370px){
-    .ima2{
-       display: none;
-        }
-    
-       
-} 
